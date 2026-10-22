@@ -1,0 +1,24 @@
+services:
+  vault-workbench:
+    build: .
+    container_name: vault-workbench
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "2m"
+        max-file: "2"
+    init: true
+    user: "${PUID:-1000}:${PGID:-1000}"
+    ports:
+      - "${VAULT_PORT:-8787}:8787"
+    volumes:
+      - "${VAULT_LIBRARY:?Set VAULT_LIBRARY in .env}:/library:ro"
+      - "${VAULT_CACHE:?Set VAULT_CACHE in .env}:/data"
+    read_only: true
+    tmpfs:
+      - /tmp:size=1g
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

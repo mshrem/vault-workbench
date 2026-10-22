@@ -1,0 +1,167 @@
+{
+  "module": {
+    "catalogId": "b351fbb8b223919e",
+    "name": "M3 Module 4F.stl",
+    "path": "VAULT/01. DRAWERS/02. M Families/M3/Modules/M3 Module 4F.stl",
+    "bytes": 68814384,
+    "printSize": [
+      253.922,
+      201.009,
+      146.1
+    ]
+  },
+  "box": {
+    "catalogId": "6a6fcf5f27646157",
+    "name": "M3 Box 4F.stl",
+    "path": "VAULT/01. DRAWERS/02. M Families/M3/Boxes/M3 Box 4F.stl",
+    "bytes": 44637084,
+    "printSize": [
+      223.398,
+      143.8,
+      181.5
+    ]
+  },
+  "facade": {
+    "catalogId": "6f9870418db8a36f",
+    "name": "M4F (Turn On Supports).stl",
+    "path": "VAULT/01. DRAWERS/02. M Families/Facades/M4F (Turn On Supports).stl",
+    "bytes": 35565784,
+    "printSize": [
+      254.0,
+      190.999,
+      10.26
+    ]
+  },
+  "roof": {
+    "catalogId": "3c58776b70d638c3",
+    "name": "M3 Grid Roof.stl",
+    "path": "VAULT/01. DRAWERS/02. M Families/M3/Roofs/M3 Grid Roof.stl",
+    "bytes": 23815834,
+    "printSize": [
+      186.762,
+      186.757,
+      145.97
+    ]
+  },
+  "baseplate": {
+    "catalogId": "a841d3dbdab6d5c1",
+    "name": "M3 Baseplate.stl",
+    "path": "VAULT/01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate.stl",
+    "bytes": 4865184,
+    "printSize": [
+      214.7,
+      134.0,
+      4.0
+    ]
+  },
+  "key": {
+    "catalogId": "0bc3feb6ae762c2e",
+    "name": "Key (Turn On Supports).stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Key (Turn On Supports).stl",
+    "bytes": 6702484,
+    "printSize": [
+      45.001,
+      36.501,
+      33.417
+    ]
+  },
+  "key-cap": {
+    "catalogId": "f2a8fe25e55c80ac",
+    "name": "Key Cap.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Key Cap.stl",
+    "bytes": 3938784,
+    "printSize": [
+      37.799,
+      13.172,
+      11.673
+    ]
+  },
+  "facade-cap": {
+    "catalogId": "41246881882ca52a",
+    "name": "Facade Cap.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Facade Cap.stl",
+    "bytes": 88984,
+    "printSize": [
+      9.84,
+      9.84,
+      3.8
+    ]
+  },
+  "springs": {
+    "catalogId": "1302f3d4b5496216",
+    "name": "Springs.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Springs.stl",
+    "bytes": 2065084,
+    "printSize": [
+      47.474,
+      75.595,
+      5.155
+    ]
+  },
+  "latch": {
+    "catalogId": "18420e5b73acfa33",
+    "name": "Latch.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Latch.stl",
+    "bytes": 1538184,
+    "printSize": [
+      96.556,
+      74.578,
+      4.5
+    ]
+  },
+  "label": {
+    "catalogId": "64b55a8b3071274a",
+    "name": "Label.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Label.stl",
+    "bytes": 907184,
+    "printSize": [
+      47.857,
+      20.627,
+      2.0
+    ]
+  },
+  "stopper": {
+    "catalogId": "c0a6e52aded53710",
+    "name": "Runner Stopper.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Runners/Runner Stopper.stl",
+    "bytes": 619684,
+    "printSize": [
+      7.754,
+      17.933,
+      8.188
+    ]
+  },
+  "guides": {
+    "catalogId": "89b9dc03be7d903e",
+    "name": "x3 Runner Guides.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Runners/x3 Runner Guides.stl",
+    "bytes": 5031684,
+    "printSize": [
+      55.651,
+      143.5,
+      9.4
+    ]
+  },
+  "slides": {
+    "catalogId": "d4a010e84c9dd219",
+    "name": "x3 Runner Slides.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Runners/x3 Runner Slides.stl",
+    "bytes": 9336634,
+    "printSize": [
+      38.598,
+      118.0,
+      8.979
+    ]
+  },
+  "rails": {
+    "catalogId": "fa6d0f1617cf4c6c",
+    "name": "M Rails.stl",
+    "path": "VAULT/01. DRAWERS/07. Universal/Geared Rails/M Rails.stl",
+    "bytes": 3402384,
+    "printSize": [
+      165.653,
+      13.226,
+      3.8
+    ]
+  }
+}

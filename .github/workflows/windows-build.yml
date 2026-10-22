@@ -1,0 +1,24 @@
+name: Build portable Windows app
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  windows:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - name: Build and smoke-test EXE
+        run: python windows/build.py
+      - uses: actions/upload-artifact@v7
+        with:
+          name: VAULTWorkbench-Windows-x64
+          path: dist/VAULTWorkbench-Windows-x64.zip
+          if-no-files-found: error
+          retention-days: 7

@@ -1,0 +1,13 @@
+{
+  "name": "vault-workbench",
+  "version": "0.5.0-dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check web/app.js && node --check web/core.js && node --check web/manufacturing.js && node --check web/manufacturing-ui.js && node --check web/rendering.js && node --check web/theme.js && node --check web/families.js && node --check web/assembly-geometry.js && node --check web/layout.js && node --check web/layout-ui.js && node --check web/layout-viewer.js && node --check web/layout-app.js",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

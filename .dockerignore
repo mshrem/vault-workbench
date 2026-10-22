@@ -1,0 +1,13 @@
+originals
+__pycache__
+tests
+*.zip
+*.stl
+.venv
+output
+
+node_modules
+.windows-build-env
+/build
+dist
+.github

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.windows-build-env/
+/build/
+dist/
+node_modules/
+originals/**/*.stl
+
+.env
+*.stl
+*.glb
+*.pdf
+/cache/
+/data/

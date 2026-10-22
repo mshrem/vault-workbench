@@ -31,7 +31,8 @@ jobs:
               raise SystemExit('Private/runtime files must not be tracked: ' + ', '.join(prohibited))
           PY
       - name: Install Python dependencies
-        run: python -m pip install --only-binary=:all: -r requirements-importer.txt
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-importer.txt
       - name: Python tests
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Install Node development dependencies
